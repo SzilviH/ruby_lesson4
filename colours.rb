@@ -2,7 +2,7 @@ class Color
   def initialize(name, hexcode)
     # Do stuff with name and hexcode
     @name = name
-    @hexcode = hexcode 
+    @hexcode = hexcode
   end
 
   def name
@@ -13,6 +13,7 @@ class Color
     @hexcode
   end
 
+  private
   def update_hexcode(hexcode)
     @hexcode = hexcode
   end
