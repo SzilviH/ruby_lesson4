@@ -13,7 +13,6 @@ class Color
     @hexcode
   end
 
-  private
   def update_hexcode(hexcode)
     @hexcode = hexcode
   end
